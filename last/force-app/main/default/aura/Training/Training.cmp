@@ -1,0 +1,9 @@
+## Update the Training Component in the VS Code
+```xml
+<aura:component>
+
+   <lightning:card title="Training">
+       <p>Training Component</p>
+   </lightning:card>
+
+</aura:component>
