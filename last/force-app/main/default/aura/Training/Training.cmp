@@ -1,9 +1,6 @@
-## Update the Training Component in the VS Code
-```xml
-<aura:component>
-
-   <lightning:card title="Training">
-       <p>Training Component</p>
-   </lightning:card>
-
+<aura:component controller="MyMapClass">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="myMap" type="Map" />
+    {!v.myMap.key1} <br/>
+    {!v.myMap.key2}
 </aura:component>
